@@ -3,7 +3,7 @@ package hw4JavaVariables;
 public class AboutMeTest {
 
 	public static void main(String[] args) {
-		AboutMe titu= new AboutMe();
+		AboutMe titu= new AboutMe(); // constructor initialized
 		titu.name="Abu Hoque";
 		titu.myAnnualSalary= 1234567; 
 		titu.age= 51;
@@ -13,7 +13,7 @@ public class AboutMeTest {
 		titu.myGrade= 3.9;
 		titu.sex ='M';
 		titu.usCitizen= false;	
-		titu.myInfo();
+		titu.myInfo(); //method initialized
 		
 		System.out.println("\n==========================\n");
 		
@@ -27,7 +27,7 @@ public class AboutMeTest {
 		alex.myGrade= 3.85;
 		alex.sex ='F';
 		alex.usCitizen= true;	
-		alex.alexInfo();
+		alex.alexInfo();//alex
 		
 	}
 	
